@@ -12,7 +12,7 @@ return {
 		require("neodev").setup()
 
 		require("mason-lspconfig").setup({
-			ensure_installed = { "lua_ls", "clangd" },
+			ensure_installed = { "lua_ls" },
 		})
 
 		require("mason-lspconfig").setup_handlers({
