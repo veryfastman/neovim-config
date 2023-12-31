@@ -3,6 +3,6 @@ return {
 	lazy = false,
 	priority = 1000,
 	config = function()
-		vim.cmd.colorscheme("torte")
+		vim.cmd.colorscheme("gruvbox")
 	end,
 }
