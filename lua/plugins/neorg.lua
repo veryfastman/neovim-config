@@ -3,6 +3,10 @@ return {
   dependencies = {
     "nvim-lua/plenary.nvim"
   },
+  keys = {
+    { "<leader>nn", "<cmd>Neorg workspace neorg<cr>", desc = "Switch to neorg workspace" },
+    { "<leader>nr", "<cmd>Neorg return<cr>", desc = "Return from neorg workspace" }
+  },
   opts = {
     load = {
         ["core.defaults"] = {},
