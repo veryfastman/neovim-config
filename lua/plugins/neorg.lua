@@ -4,8 +4,12 @@ return {
     "nvim-lua/plenary.nvim"
   },
   keys = {
-    { "<leader>nn", "<cmd>Neorg workspace neorg<cr>", desc = "Switch to neorg workspace" },
-    { "<leader>nr", "<cmd>Neorg return<cr>", desc = "Return from neorg workspace" }
+    { "<leader>nn", "<cmd>Neorg workspace neorg<cr>" },
+    { "<leader>nr", "<cmd>Neorg return<cr>" },
+    { "<leader>njt", "<cmd>Neorg journal today<cr>" },
+    { "<leader>njT", "<cmd>Neorg journal tomorrow<cr>" },
+    { "<leader>njc", "<cmd>Neorg journal toc<cr>" },
+    { "<leader>njv", "<cmd>Neorg journal template<cr>" }
   },
   opts = {
     load = {

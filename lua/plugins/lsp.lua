@@ -6,6 +6,9 @@ return {
 		"folke/neodev.nvim",
 	},
 	lazy = false,
+  keys = {
+    { "<leader>m", "<cmd>Mason<cr>" }
+  },
 	init = function()
 		require("mason").setup()
 		require("mason-lspconfig").setup()
