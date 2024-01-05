@@ -8,7 +8,6 @@ vim.opt.expandtab = true
 vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4
 vim.opt.showmode = false
-vim.opt.shortmess = "I"
 vim.opt.timeoutlen = 500
 vim.opt.clipboard = "unnamedplus"
 vim.opt.guicursor = ""
