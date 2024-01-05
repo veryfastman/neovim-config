@@ -17,4 +17,4 @@ vim.opt.splitbelow = true
 vim.opt.splitright = true
 
 -- neovide config
-vim.opt.guifont = "JetBrainsMono Nerd Font:h12"
+vim.opt.guifont = "Inconsolata Nerd Font:h14"
