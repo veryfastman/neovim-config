@@ -45,9 +45,7 @@ return {
 			desc = "Navigate to mark 4",
 		},
 	},
-	init = function()
-		require("harpoon"):setup()
-	end,
+  opts = {}
 }
 
 --[[ return {
