@@ -3,6 +3,11 @@ return {
 	event = "VeryLazy",
 	init = function()
 		require("which-key").register({
+      a = {
+        name = "FmNvim",
+        d = "Lf",
+        f = "Lazygit"
+      },
       c = {
         name = "Build",
         c = "Compile",
