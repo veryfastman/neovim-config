@@ -3,7 +3,7 @@ return {
 	dependencies = {
 		"williamboman/mason.nvim",
 		"williamboman/mason-lspconfig.nvim",
-		"folke/neodev.nvim",
+    "folke/neodev.nvim"
 	},
 	lazy = false,
   keys = {
@@ -12,10 +12,10 @@ return {
 	init = function()
 		require("mason").setup()
 		require("mason-lspconfig").setup()
-		require("neodev").setup()
+    require("neodev").setup()
 
 		require("mason-lspconfig").setup({
-			ensure_installed = { "lua_ls" },
+			ensure_installed = { "lua_ls", "rust_analyzer" },
 		})
 
 		require("mason-lspconfig").setup_handlers({

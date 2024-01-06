@@ -3,6 +3,11 @@ return {
 	event = "VeryLazy",
 	init = function()
 		require("which-key").register({
+      c = {
+        name = "Build",
+        c = "Compile",
+        v = "Run"
+      },
 			f = { name = "Telescope" },
 			h = { name = "Harpoon" },
       n = {
