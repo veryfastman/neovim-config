@@ -23,5 +23,9 @@ return {
 				require("lspconfig")[server_name].setup({})
 			end,
 		})
+
+    vim.diagnostic.config({
+      virtual_text = false
+    })
 	end,
 }
