@@ -15,6 +15,11 @@ return {
       },
       f = { name = "Telescope" },
       h = { name = "Harpoon" },
+      l = {
+        name = "LSP",
+        c = "Code Actions",
+        d = "Type Definition",
+      },
       n = {
         name = "Neorg",
         n = "Go to neorg workspace",
@@ -33,7 +38,8 @@ return {
         r = "Refresh",
         d = "Close",
       },
-      l = { "<cmd>Lazy<cr>", "Lazy" },
+      e = "Neotree",
+      L = { "<cmd>Lazy<cr>", "Lazy" },
     }, { prefix = "<leader>" })
   end,
 }
