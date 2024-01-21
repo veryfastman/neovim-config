@@ -8,8 +8,18 @@ return {
   lazy = false,
   keys = {
     { "<leader>m", "<cmd>Mason<cr>" },
-    { "<leader>lc", "vim.lsp.buf.code_action<cr>" },
-    { "<leader>ld", "<cmd>lua vim.lsp.buf.type_definition<cr>" },
+    {
+      "<leader>lc",
+      function()
+        vim.lsp.buf.code_action()
+      end,
+    },
+    {
+      "<leader>ld",
+      function()
+        vim.lsp.buf.type_definition()
+      end,
+    },
   },
   init = function()
     require("mason").setup()
