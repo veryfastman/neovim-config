@@ -4,6 +4,7 @@ return {
     "aktersnurra/no-clown-fiesta.nvim",
     "Mofiqul/vscode.nvim",
     "navarasu/onedark.nvim",
+    "LunarVim/darkplus.nvim"
   },
   lazy = false,
   priority = 1000,
@@ -11,6 +12,6 @@ return {
     require("onedark").setup({
       style = "darker",
     })
-    vim.cmd.colorscheme("no-clown-fiesta")
+    vim.cmd.colorscheme("darkplus")
   end,
 }
