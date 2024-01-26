@@ -18,7 +18,8 @@
   "neo-tree.nvim": { "branch": "v3.x", "commit": "2f2d08894bbc679d4d181604c16bb7079f646384" },
   "neodev.nvim": { "branch": "main", "commit": "3408a4daeca5ff8f41cb2c668b6d8fcc665f793a" },
   "neorg": { "branch": "main", "commit": "28cbafbc0cde316d8e2618ff26377200225e9393" },
-  "no-clown-fiesta.nvim": { "branch": "master", "commit": "ecf3e186d336e03b5ce7ed4e8f7f72ad983947df" },
+  "neosolarized.nvim": { "branch": "master", "commit": "687c780ff11253b474f9a777482648f8f4c39185" },
+  "neovim-ayu": { "branch": "master", "commit": "6463d39253bb70e2b867fce57f9e7174f657bd1b" },
   "noice.nvim": { "branch": "main", "commit": "bf67d70bd7265d075191e7812d8eb42b9791f737" },
   "nui.nvim": { "branch": "main", "commit": "35da9ca1de0fc4dda96c2e214d93d363c145f418" },
   "nvim-autopairs": { "branch": "master", "commit": "096d0baecc34f6c5d8a6dd25851e9d5ad338209b" },
@@ -26,11 +27,9 @@
   "nvim-lspconfig": { "branch": "master", "commit": "8917d2c830e04bf944a699b8c41f097621283828" },
   "nvim-treesitter": { "branch": "master", "commit": "cb79d2446196d25607eb1d982c96939abdf67b8e" },
   "nvim-web-devicons": { "branch": "master", "commit": "b427ac5f9dff494f839e81441fb3f04a58cbcfbc" },
-  "onedark.nvim": { "branch": "master", "commit": "14e5de43cf1ff761c280d1ff5b9980897f5b46c7" },
   "plenary.nvim": { "branch": "master", "commit": "663246936325062427597964d81d30eaa42ab1e4" },
   "telescope.nvim": { "branch": "master", "commit": "1bfbb1fb5c56d2dbe33216fcb2ebe82e499aa06c" },
   "trouble.nvim": { "branch": "main", "commit": "f1168feada93c0154ede4d1fe9183bf69bac54ea" },
   "vim-tmux-navigator": { "branch": "master", "commit": "38b1d0402c4600543281dc85b3f51884205674b6" },
-  "vscode.nvim": { "branch": "main", "commit": "826102511b9b689a16e3e55c30f2eb65eedc99f6" },
   "which-key.nvim": { "branch": "main", "commit": "4433e5ec9a507e5097571ed55c02ea9658fb268a" }
 }
