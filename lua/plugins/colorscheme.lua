@@ -1,8 +1,8 @@
 return {
-  "Tsuzat/neosolarized.nvim",
+  "RRethy/nvim-base16",
   lazy = false,
   priority = 1000,
-  config = function()
-    vim.cmd.colorscheme("NeoSolarized")
-  end,
+  init = function()
+    vim.cmd.colorscheme("base16-default-dark")
+  end
 }
