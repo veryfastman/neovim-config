@@ -38,6 +38,7 @@ return {
         r = "Refresh",
         d = "Close",
       },
+      b = "Buffers",
       e = "Neotree",
       L = { "<cmd>Lazy<cr>", "Lazy" },
     }, { prefix = "<leader>" })
