@@ -15,10 +15,10 @@ return {
   lazy = false,
   priority = 1000,
   init = function()
-    require("onedark").setup {
+    require("onedark").setup({
       style = "darker",
-      transparent = true
-    }
+      transparent = true,
+    })
     vim.cmd.colorscheme("onedark")
-  end
+  end,
 }

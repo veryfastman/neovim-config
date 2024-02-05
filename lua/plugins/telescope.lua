@@ -9,5 +9,6 @@ return {
     { "<leader>ft", "<cmd>Telescope live_grep<cr>" },
     { "<leader>fb", "<cmd>Telescope buffers<cr>" },
     { "<leader>fc", "<cmd>Telescope colorscheme<cr>" },
+    { "<leader>fT", "<cmd>TodoTelescope<cr>" },
   },
 }
