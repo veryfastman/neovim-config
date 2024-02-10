@@ -10,27 +10,27 @@
 --   end
 -- }
 
--- return {
---   "navarasu/onedark.nvim",
---   lazy = false,
---   priority = 1000,
---   init = function()
---     require("onedark").setup({
---       style = "darker",
---       transparent = true,
---     })
---     vim.cmd.colorscheme("onedark")
---   end,
--- }
-
 return {
-  "aktersnurra/no-clown-fiesta.nvim",
+  "navarasu/onedark.nvim",
   lazy = false,
   priority = 1000,
   init = function()
-    require("no-clown-fiesta").setup({
-      transparent = true,
+    require("onedark").setup({
+      style = "darker",
+      -- transparent = true,
     })
-    vim.cmd.colorscheme("no-clown-fiesta")
+    vim.cmd.colorscheme("onedark")
   end,
 }
+
+-- return {
+--   "aktersnurra/no-clown-fiesta.nvim",
+--   lazy = false,
+--   priority = 1000,
+--   init = function()
+--     require("no-clown-fiesta").setup({
+--       transparent = true,
+--     })
+--     vim.cmd.colorscheme("no-clown-fiesta")
+--   end,
+-- }
