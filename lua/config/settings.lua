@@ -11,8 +11,6 @@ vim.opt.showmode = false
 vim.opt.timeoutlen = 500
 vim.opt.clipboard = "unnamedplus"
 vim.opt.guicursor = ""
-vim.opt.laststatus = 0
-vim.opt.linebreak = true
 vim.opt.splitbelow = true
 vim.opt.splitright = true
 
