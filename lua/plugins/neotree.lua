@@ -9,4 +9,9 @@ return {
   keys = {
     { "<leader>e", "<cmd>Neotree toggle<cr>" },
   },
+  opts = {
+    window = {
+      position = "right",
+    },
+  },
 }
