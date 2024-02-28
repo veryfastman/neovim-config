@@ -11,4 +11,17 @@ return {
     { "<leader>fc", "<cmd>Telescope colorscheme<cr>" },
     { "<leader>fT", "<cmd>TodoTelescope<cr>" },
   },
+  init = function()
+    local state = require("telescope.actions")
+
+    require("telescope").setup({
+      defaults = {
+        mappings = {
+          i = {
+            ["<esc>"] = state.close,
+          },
+        },
+      },
+    })
+  end,
 }
