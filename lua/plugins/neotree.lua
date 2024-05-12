@@ -11,7 +11,7 @@ return {
   },
   opts = {
     window = {
-      position = "right",
+      -- position = "right",
     },
   },
 }

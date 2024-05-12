@@ -1,12 +1,19 @@
 return {
   "nvim-neorg/neorg",
   lazy = false,
+  version = "*",
   dependencies = {
     "nvim-lua/plenary.nvim",
+
+    {
+      "vhyrro/luarocks.nvim",
+      priority = 1000,
+      config = true,
+    }
   },
   keys = {
-    { "<leader>nn", "<cmd>Neorg workspace neorg<cr>" },
-    { "<leader>nr", "<cmd>Neorg return<cr>" },
+    { "<leader>nn",  "<cmd>Neorg workspace neorg<cr>" },
+    { "<leader>nr",  "<cmd>Neorg return<cr>" },
     { "<leader>njt", "<cmd>Neorg journal today<cr>" },
     { "<leader>njT", "<cmd>Neorg journal tomorrow<cr>" },
     { "<leader>njc", "<cmd>Neorg journal toc<cr>" },
